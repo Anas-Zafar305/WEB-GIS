@@ -1,0 +1,19 @@
+div{
+    border:double #009900 6px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+h1{
+    color: darkgray;
+    font-size: 50px;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+body{
+    background-image: url(/HTML-CSS/GIS.jpg);
+}

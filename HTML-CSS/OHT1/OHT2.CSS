@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: rgb(52, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(233, 224, 224);
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  nav ul li{
+    display: inline-block;
+  }
+
+  /* Removing Linking Lines */
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    /* margin: 10px; */
+  }
+
+  a:hover{
+    color: red;
+    font-size: 20px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  /* Fixing Images*/
+  .watch {
+    flex-basis: 20%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  /* Fixing Height and Width of Flex Items */
+  .watch img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ /*Distance between Price and Image  */
+  .watch h3 {
+    margin: 30px;
+  }
+
+/* Price css */
+  .watch p {
+    margin: 10px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: rgb(52, 49, 49);
+    color: white;
+    text-align: center;}
